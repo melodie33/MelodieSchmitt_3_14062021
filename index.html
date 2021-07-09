@@ -19,86 +19,88 @@
     <title>ohmyfood</title>
 </head>
 <body>
-<header style="background-color: red">
+<header class="header" style="background-color: red">
     <!-- mettre en place le titre avec un lien en lieu et place de l'image -->
-    <a href="index.html"
-    ><img src=""
-           alt="logo ohmyfood"
-    /></a>
-    <label for="site-search">
-        <i class="fa fa-map-marker"></i>
-    </label>
-    <input
-            id="site-search"
-            name="recherche"
-            placeholder="Paris, Belleville"
-            type="search"
-    />
 
+    <a href="index.html"
+       class="logo"><h1>ohmyfood</h1></a>
+
+    <form id="search" style="background-color: darkgreen">
+        <label for="site-search">
+            <i class="fa fa-map-marker"></i>
+        </label>
+        <input
+                id="site-search"
+                name="recherche"
+                placeholder="Paris, Belleville"
+                type="search"
+        />
+    </form>
 </header>
-<section style="background-color:darkslategrey">
-    <h1>Réservez le menu qui vous convient</h1>
+<section class="home" style="background-color:darkslategrey">
+    <h1 style="background-color: blueviolet">Réservez le menu qui vous convient</h1>
     <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
 
-    <button>Explorez nos restaurants</button>
+    <button style="background-color: yellow">Explorez nos restaurants</button>
 </section>
-<section style="background-color: crimson">
-    <h2>Fonctionnement</h2>
-    <p>Choisissez un restaurant</p>
-    <p>Composez votre menu</p>
-    <p>Dégustez au restaurant</p>
+<section class="operation" style="background-color: crimson">
+    <h1 style="background-color: chartreuse">Fonctionnement</h1>
+    <ul>
+        <li style="background-color: blue"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
+        <li style="background-color: white"><i class="fas fa-list-ul"></i>Composez votre menu</li>
+        <li style="background-color: red"><i class="fas fa-store"></i>Dégustez au restaurant</li>
+    </ul>
 </section>
-<section style="background-color: yellow">
+<section class="restaurants" style="background-color: yellow">
     <h1>Restaurants</h1>
-    <figure>
-        <figcaption>
-            <img src=""
-            alt="la palette du goût">
+    <figure style="background-color: darkorange">
+        <img src=""
+             alt="la palette du goût">
+        <figcaption style="background-color: deeppink">
 
             <h2>La palette du goût</h2>
             <p>Ménilmontant</p>
             <i class="far fa-heart"></i>
         </figcaption>
     </figure>
-    <figure>
-        <figcaption>
-            <img src=""
-            alt="La note enchantée">
+    <figure style="background-color: darkorange">
+        <img src=""
+             alt="La note enchantée">
+        <figcaption style="background-color: deeppink">
             <h2>La note enchantée</h2>
             <p>Charonne</p>
             <i class="far fa-heart"></i>
         </figcaption>
     </figure>
-    <figure>
-        <figcaption>
-            <img src=""
-            alt="A la française">
+    <figure style="background-color: darkorange">
+        <img src=""
+             alt="A la française">
+        <figcaption style="background-color: deeppink">
             <h2>A la française</h2>
             <p>Cité Rouge</p>
             <i class="far fa-heart"></i>
         </figcaption>
     </figure>
-    <figure>
-        <figcaption>
-            <img src=""
-            alt="Le délice des sens">
+    <figure style="background-color: darkorange">
+        <img src=""
+             alt="Le délice des sens">
+        <figcaption style="background-color: deeppink">
             <h2>Le délice de sens</h2>
             <p>Folie-Méricourt</p>
             <i class="far fa-heart"></i>
         </figcaption>
     </figure>
 </section>
-<footer style="background-color: darkviolet">
+<footer class="footer" style="background-color: darkviolet">
     <a href="index.html">
-    <img src=""
-         alt="">
+        <h3>ohmyfood</h3>
     </a>
     <nav>
         <ul>
-            <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
-            <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
-            <li><a href="#">Mentions Légales</a></li>
-            <li><a href="#">Contact</a></li>
+            <li style="background-color: coral"><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+            <li style="background-color: darkblue"><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+            <li style="background-color: darkgreen"><a href="#">Mentions Légales</a></li>
+            <li  style="background-color: blueviolet"><a href="#">Contact</a></li>
         </ul>
     </nav>
 </footer>
